@@ -10,4 +10,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'stylebindingdemo';
+
+  color = 'red';
+  bgColor = 'yellow';
+
+  updateColor(){
+    this.color = 'blue';
+    this.bgColor = 'purple';
+  }
 }
